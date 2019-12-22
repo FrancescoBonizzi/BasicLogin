@@ -31,6 +31,8 @@ namespace Playground
                     firstName: "user's name", 
                     lastName: "user's surname", 
                     userType: UserTypes.SimpleUser);
+
+                var loggedUser = users.Login("user", "wrongPassword");
             }
             catch (Exception ex)
             {
